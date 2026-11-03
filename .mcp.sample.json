@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "my-database": {
+      "type": "http",
+      "url": "http://localhost:5042/mcp/my-database",
+      "headers": {
+        "X-Api-Key": "<same-key-as-ApiKeys:my-database>",
+        "X-Access-Mode": "ReadOnly"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# Secrets / local config
+appsettings.json
+appsettings.*.json
+!appsettings.sample.json
+.mcp.json
+
+# Build output
+bin/
+obj/
+publish/
+
+# IDE / user files
+.vs/
+*.user
+*.suo
+
+# Claude Code local settings
+.claude/settings.local.json

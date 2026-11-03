@@ -1,0 +1,4 @@
+@MCP_HostAddress = http://localhost:5042
+
+# MCP endpoint is at {{MCP_HostAddress}}/api/mcp
+# Use an MCP client (not plain HTTP GET) to connect - see your agent's MCP server config.
